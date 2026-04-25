@@ -45,7 +45,7 @@ void freeList() {
 }
 
 int main() {
-    int n = 3;
+    int n = 9;
     hanoi(n, 'A', 'C', 'B');
     printList();
     freeList();
